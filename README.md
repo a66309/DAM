@@ -12,12 +12,11 @@ Aplicação web para consultar um catálogo de livros e adicionar novos livros.
 Destina-se a leitores que queiram descobrir e organizar livros de interesse.
 
 ## Funcionalidades previstas
-**Já implementadas (entrega intermédia):**
 - Lista de livros com capa, título e autor
 - Mostrar/ocultar detalhes (ano e opinião) de cada livro
 - Formulário para adicionar um novo livro, com atualização imediata da lista
 
-**Previstas para a entrega final:**
+Previstas para a entrega final:
 - Pesquisa e filtro por autor ou ano
 - Marcar livros como favoritos
 - Remover livros
