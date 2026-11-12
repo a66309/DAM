@@ -1,57 +1,40 @@
 # Catálogo de Livros
 
-Projeto de Desenvolvimento de Aplicações Multimédia — IPB / EsACT — 2026/2027
+Projeto de Desenvolvimento de Aplicações Multimédia — UPB / EsACT — 2026/2027
 Entrega intermédia (30%)
 
-## Elementos do grupo
+/ Elementos do grupo
 - Lucas Souza
 - Gonçalo Tavares
 
-## Objetivo e público-alvo
+/ Objetivo e público-alvo
 Aplicação web para consultar um catálogo de livros e adicionar novos livros.
 Destina-se a leitores que queiram descobrir e organizar livros de interesse.
 
-## Funcionalidades previstas
+/ Funcionalidades previstas
 - Lista de livros com capa, título e autor
 - Mostrar/ocultar detalhes (ano e opinião) de cada livro
 - Formulário para adicionar um novo livro, com atualização imediata da lista
 
-Previstas para a entrega final:
+/ Previstas para a entrega final:
 - Pesquisa e filtro por autor ou ano
 - Marcar livros como favoritos
 - Remover livros
-- Estilos CSS e adaptação a diferentes ecrãs
-- Dados de uma API externa
+- Possibilidades de CSS
+- Base de Dados aprimorada
 
-## Protótipo (esboço)
-```
-+-----------------------------+
-|  Catálogo de Livros       |
-+-----------------------------+
-| [capa] Título               |
-|        Autor                |
-|        [Ver detalhes]       |
-|        (ano + opinião)      |
-| ...                         |
-+-----------------------------+
-| Adicionar novo livro        |
-| Título [____] Autor [____]  |
-| Ano [____] Capa [____]      |
-| Opinião [__________]        |
-| [Adicionar livro]           |
-+-----------------------------+
-```
 
-## Estrutura
-```
+/ Estrutura
+
 src/
   main.jsx
   App.jsx
+  App.css
   components/
     BookList.jsx
     BookCard.jsx
     BookForm.jsx
-```
+
 
 ## Como executar
 ```
